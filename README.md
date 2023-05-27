@@ -1,5 +1,4 @@
-# Chalgen
-## A simple command line utility that generates challenges 
+# Chalgen: A simple command line utility that generates challenges 
 This utility will look at a set of text files that you give it and create a set of challenges. For example, you could have some text files that describe pixel art challenges you can try.
 
 `theme.txt`
@@ -41,8 +40,6 @@ Draw a bear at 128x64 pixels with Midnight Ablaze Palette
 Draw a mountain at 256x128 pixels with Midnight Ablaze Palette
 ```
 ### Full Argument List
-```
--f or --files (Required): This will determine what files the program looks through to generate challenges.
--c or --count (Optional, default 1): This will determine how many random instances of challenges are generated
--s or --separator (Optional, default " "): This is a string that will be placed between the separate parts of a single challenge.
-```
+`-f or --files (Required)`: This will determine what files the program looks through to generate challenges.
+`-c or --count (Optional, default 1)`: This will determine how many random instances of challenges are generated
+`-s or --separator (Optional, default " ")`: This is a string that will be placed between the separate parts of a single challenge.
