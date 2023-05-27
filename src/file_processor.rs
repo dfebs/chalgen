@@ -16,7 +16,6 @@ pub fn output_challenges(args: Args) {
             let entry = get_random_entry_from_file(file);
             print!("{entry}");
         }
-        println!("{}", &args.delimiter)
     }
 }
 

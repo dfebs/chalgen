@@ -9,9 +9,6 @@ pub struct Args {
     #[arg(short, long, default_value_t = String::from(" "))]
     pub separator: String,
 
-    #[arg(short, long, default_value_t = String::from(" "))]
-    pub delimiter: String,
-
     #[arg(short, long, default_value_t = 1)]
     pub count: i32
 }
