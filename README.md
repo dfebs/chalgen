@@ -41,5 +41,7 @@ Draw a mountain at 256x128 pixels with Midnight Ablaze Palette
 ```
 ### Full Argument List
 `-f or --files (Required)`: This will determine what files the program looks through to generate challenges.
+
 `-c or --count (Optional, default 1)`: This will determine how many random instances of challenges are generated
+
 `-s or --separator (Optional, default " ")`: This is a string that will be placed between the separate parts of a single challenge.
