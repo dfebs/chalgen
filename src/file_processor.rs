@@ -6,12 +6,17 @@ use rand::Rng;
 pub fn output_challenges(args: Args) {
     let count = args.count;
     for _ in 0..count {
+        let mut first_entry = true;
         for file in &args.files {
+            if first_entry {
+                first_entry = false;
+            } else {
+                print!("{}", &args.separator);
+            }
             let entry = get_random_entry_from_file(file);
             print!("{entry}");
-            print!("{}", &args.separator);
         }
-        println!("{}\n", &args.delimiter)
+        println!("{}", &args.delimiter)
     }
 }
 
